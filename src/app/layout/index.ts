@@ -1,8 +1,8 @@
 import { NgModule } from '@angular/core';
 
 // Components
-import { HeaderComponent } from './header/header.component';
-// import { FooterComponent } from './footer/footer.component';
+import { HeaderComponent } from './header/header';
+import { FooterComponent } from './footer/footer';
 
 // Modules
 // import { SharedModule } from '../shared/index';
@@ -12,7 +12,7 @@ import { RouterModule } from '@angular/router';
   declarations: [
     // components
     HeaderComponent,
-    // FooterComponent,
+    FooterComponent,
 
     // sub components
     // ProfileDropdownComponent
@@ -21,7 +21,7 @@ import { RouterModule } from '@angular/router';
   ],
   exports: [
     HeaderComponent,
-    // FooterComponent,
+    FooterComponent,
   ],
   imports: [
     // SharedModule,
