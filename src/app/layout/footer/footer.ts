@@ -2,11 +2,11 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-header',
-  templateUrl: './header.component.html',
-  styleUrls: ['./header.component.scss'],
+  templateUrl: './footer.html',
+  styleUrls: ['./footer.css'],
   // changeDetection: ChangeDetectionStrategy.OnPush
 })
 
-export class HeaderComponent {
+export class FooterComponent {
   
 }

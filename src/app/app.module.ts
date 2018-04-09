@@ -18,7 +18,7 @@ import { ProductModule } from './product/index';
   imports: [
     BrowserModule,
     NgbModule.forRoot(),
-    RouterModule.forRoot(routes, {useHash: true}),
+    RouterModule.forRoot(routes, {useHash: false}),
     // RouterModule.forRoot(routes, { preloadingStrategy: PreloadAllModules }),
     ProductModule
   ],

@@ -4,12 +4,6 @@ import { ProductPage } from './product/list/product-page';
 export const routes: Routes = [
   {
     path: '',
-    redirectTo: 'product',
-    pathMatch: 'full'
-    // component: ProductPage
-  },
-  {
-    path: 'product',
     loadChildren: './product/index#ProductModule' 
   },
   // {
