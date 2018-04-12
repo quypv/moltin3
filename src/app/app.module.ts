@@ -8,6 +8,7 @@ import { AppComponent } from './app.component';
 // Routes
 import { routes } from './app.routes';
 // Modules
+import { LayoutModule } from './layout/index';
 import { ProductModule } from './product/index';
 
 @NgModule({
@@ -20,7 +21,8 @@ import { ProductModule } from './product/index';
     NgbModule.forRoot(),
     RouterModule.forRoot(routes, {useHash: false}),
     // RouterModule.forRoot(routes, { preloadingStrategy: PreloadAllModules }),
-    ProductModule
+    ProductModule,
+    LayoutModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

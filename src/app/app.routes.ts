@@ -1,10 +1,12 @@
-import { RouterModule, Routes } from '@angular/router';
-import { ProductPage } from './product/list/product-page';
+import { Routes } from '@angular/router';
 
 export const routes: Routes = [
   {
     path: '',
-    loadChildren: './product/index#ProductModule' 
+    loadChildren: './product/index#ProductModule',
+    data: {
+        hello: 'world'
+    }
   },
   // {
   //   path: 'checkout',
